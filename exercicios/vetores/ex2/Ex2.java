@@ -13,11 +13,18 @@ public class Ex2 {
         System.out.print("Quantos numeros voce vai digitar? ");
         int qtd = sc.nextInt();
         int[] numeros = new int[qtd];
-        for(int i = 0; i < numeros.length; i++){
+
+        for (int i = 0; i < numeros.length; i++) {
+            System.out.print("Digite um numero: ");
+            numeros[i] = sc.nextInt();
+        }
+        System.out.println("Numeros negativos:");
+        for (int numero : numeros) {
+            if (numero < 0) {
+                System.out.println(numero);
+            }
 
         }
-
-
 
         sc.close();
     }

@@ -36,9 +36,9 @@ public class Pessoa {
     }
 
     /* teste com listas
-    public static double mediaAltura(List<Pessoa> listaDeIndividuos){
+    public static double mediaAltura(List<Alunos> listaDeIndividuos){
         double soma = 0;
-        for (Pessoa individuo : listaDeIndividuos){
+        for (Alunos individuo : listaDeIndividuos){
             soma += individuo.getAltura();
         }
         return soma/listaDeIndividuos.size();
